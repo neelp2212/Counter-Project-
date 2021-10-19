@@ -1,25 +1,25 @@
 var count = 0;
 
-function print(a)
+function print()
 {
-    document.getElementById("number").innerHTML= a  + count;
+    document.getElementById("number").innerHTML = count;
     
 }
 function increment()
 {
 
     count = count + 1; 
-    print("Incremented By");
+    print();
 }
 
 function decrement()
 {
     count = count - 1;
-    print("Decremented By");
+    print();
 }
 
 function reset ()
 {
     count = 0;
-    print("Rest will be ");
+    print();
 }
